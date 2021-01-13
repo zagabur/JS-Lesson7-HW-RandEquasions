@@ -26,7 +26,7 @@ for (let i = 0; i < 10; i++) {
 
 
     let equasion =+ prompt (num1 +' + '+ num2 +' =? ');
-    let answer = (num1+num2) == equasion ? ' Молодец, это правильный ответ <br>'  :  'К сожалению ваш ответ "'+ equasion + '" неправильный. <br>';  
-    document.write(num1+' + '+ num2 + '=' +' ' +(num1 + num2) + ' Ваш ответ ' + equasion + '    ' + answer) ;
+    let answer = (num1+num2) == equasion ? ' Молодец, это правильный ответ <br><br>'  :  'К сожалению ваш ответ "'+ equasion + '" неправильный. <br><br>';  
+    document.write(num1+' + '+ num2 + '=' +' ' +(num1 + num2) + '     Ваш ответ ' + equasion + '    ' + answer) ;
     
 }
